@@ -5,7 +5,8 @@ int mul(Node **h1, Node **t1,Node **h2, Node **t2,Node **rh, Node **rt)
 {
     Node *tp2 = *t2;
     int pos = 0;
-
+    (void)h1;
+    (void)h2;
     *rh = *rt = NULL;
 
     while (tp2)

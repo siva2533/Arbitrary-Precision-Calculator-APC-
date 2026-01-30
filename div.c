@@ -2,7 +2,7 @@
 
 int divi(Node **h1, Node **t1,Node **h2, Node **t2,Node **qh, Node **qt,Node **rh, Node **rt)
 {
-    
+    (void)t1;
     if (*h2 == NULL)
         return FAILURE;
 

@@ -73,6 +73,8 @@ int subtract_mag(Node **hbig, Node **tbig,Node **hsmall, Node **tsmall,Node **rh
     Node *tp1 = *tbig;
     Node *tp2 = *tsmall;
     int borrow = 0;
+    (void)hbig;
+    (void)hsmall;
 
     *rh = *rt = NULL;
 
